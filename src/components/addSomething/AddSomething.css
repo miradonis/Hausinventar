@@ -1,0 +1,90 @@
+.hideForm {
+    display: none;
+    color: red;
+}
+
+.showForm {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+.div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addSomethingButton {
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    box-shadow: 10px 10px 10px silver;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+
+.formClose {
+    text-align: right;
+}
+
+.formClose Button {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.fieldset {
+    padding: 20px;
+}
+
+.fieldset input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+    height: 30px;
+}
+
+.fieldset textarea {
+    resize: none;
+    width: 95%;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.formButton {
+    height: 30px;
+    width: 95%;
+    background-color: transparent;
+    box-shadow: 10px 10px 10px silver;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+
+/* form {
+    padding: 9% 10%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.div input {
+    margin-bottom: 10%;
+    padding: 3%;
+}
+
+.div textarea {
+    margin-bottom: 10%;
+    padding: 3%;
+    resize: none;
+    width: 230px;
+    height: 100px;
+}
+
+
+
+.formButton {
+    padding: 2%;
+    font-size: 1.5rem;
+    color: red;
+} */

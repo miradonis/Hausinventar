@@ -1,0 +1,23 @@
+.Navbar {
+    background-color: #F5F5F6;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.Navbar ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 10%;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 1.5rem;
+}

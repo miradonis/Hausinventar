@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+/*
+========== Styling for Home ============
+*/
+
+.homeBackground {
+	height: 40vh;
+	margin-bottom: 5vh;
+	background-image: url('./assets/img/home-background.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.homeHeading {
+	font-size: 7rem;
+	font-family: fantasy;
+}
+
+.homeArticle a {
+	text-decoration: none;
+	color: black;
+}
+
+.homeImg {
+	width: 25rem;
+}
+
+.homeArticle {
+	padding-top: 12vh;
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.homeDescription {
+	font-family: fantasy;
+	font-size: 1.9rem;
+	font-weight: bolder;
+	margin-top: 2%;
+}
+
+
+.bigStuffSection {
+	padding-top: 20vh;
+	display: flex;
+}
+
+
+/*
+===== Styling for BIG STUFF, NOT SO BIG STUFF, SMALL STUFF =====
+*/
+
+.createCardSection {
+	width: 80%;
+	padding: 20vh 0 0 20vw;
+	display: flex;
+	justify-content: space-between;
+}
+
